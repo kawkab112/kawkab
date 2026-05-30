@@ -1,0 +1,307 @@
+[30/05/2026 02:34 م] 𝕜𝕒𝕨𝕜𝕒𝕓🪐: <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝕜𝕒𝕨𝕜𝕒𝕓</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap');
+        - { box-sizing: border-box; }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #000;
+            color: #E0E0E0;
+            margin: 0;
+            background-image: radial-gradient(circle at 20% 50%, #1a1a2e 0%, #0B0C10 50%, #000 100%);
+        }
+        header {
+            background: linear-gradient(180deg, rgba(31,40,51,0.9), rgba(11,12,16,0.95));
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 4px solid #00D9FF;
+            box-shadow: 0 5px 30px rgba(0,217,255,0.3);
+        }
+        h1 {
+            color: #00D9FF;
+            font-size: 65px;
+            margin: 0;
+            font-weight: 900;
+            text-shadow: 0 0 25px #00D9FF, 0 0 50px #00D9FF;
+            letter-spacing: 3px;
+        }
+        header p {
+            color: #66FCF1;
+            font-size: 19px;
+            margin: 10px 0 0 0;
+        }
+        nav {
+            background: rgba(69,162,158,0.95);
+            backdrop-filter: blur(10px);
+            padding: 14px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+        }
+        nav a {
+            color: #0B0C10;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 900;
+            font-size: 18px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        nav a:hover {
+            color: #fff;
+            transform: scale(1.15);
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        .planet {
+            background: linear-gradient(135deg, rgba(31,40,51,0.9), rgba(11,12,16,0.95));
+            margin: 35px 0;
+            padding: 35px;
+            border-radius: 20px;
+            border: 2px solid #00D9FF;
+            box-shadow: 0 8px 40px rgba(0,217,255,0.25);
+            transition: 0.4s;
+        }
+        .planet:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 50px rgba(0,217,255,0.4);
+        }
+        .planet h2 {
+            color: #00D9FF;
+            font-size: 42px;
+            margin: 0 0 20px 0;
+            text-shadow: 0 0 15px #00D9FF;
+        }
+        .planet-img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #66FCF1;
+            box-shadow: 0 0 30px rgba(102,252,241,0.4);
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .info-box {
+            background: rgba(11,12,16,0.8);
+            padding: 18px;
+            border-radius: 12px;
+            border-right: 4px solid #00D9FF;
+        }
+        .info-box strong {
+            color: #66FCF1;
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .info-box span {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .fact {
+            margin-top: 25px;
+            background: rgba(0,217,255,0.08);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0,217,255,0.3);
+            line-height: 2;
+        }
+        .fact strong {
+            color: #00D9FF;
+            font-size: 19px;
+[30/05/2026 02:34 م] 𝕜𝕒𝕨𝕜𝕒𝕓🪐: }
+        footer {
+            background: rgba(31,40,51,0.95);
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 3px solid #00D9FF;
+        }
+        .source {
+            font-size: 14px;
+            color: #45A29E;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>𝕜𝕒𝕨𝕜𝕒𝕓</h1>
+        <p>موسوعة المجموعة الشمسية - صور حقيقية بدقة عالية من NASA</p>
+    </header>
+
+    <nav>
+        <a href="#mercury">عطارد</a>
+        <a href="#venus">الزهرة</a>
+        <a href="#earth">الأرض</a>
+        <a href="#mars">المريخ</a>
+        <a href="#jupiter">المشتري</a>
+        <a href="#saturn">زحل</a>
+        <a href="#uranus">أورانوس</a>
+        <a href="#neptune">نبتون</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="planet" id="mercury">
+            <h2>عطارد Mercury</h2>
+            <img class="planet-img" src="https://photojournal.jpl.nasa.gov/jpeg/PIA19422.jpg" alt="كوكب عطارد بجودة عالية من MESSENGER">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>4,879 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>58 مليون كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>88 يوم أرضي</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>59 يوم أرضي</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>38% من الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>0</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> عطارد أصغر كوكب وسطحه مليان فوهات زي القمر. معندوش غلاف جوي حقيقي عشان كده الحرارة بتتراوح من -173° ليلاً إلى 427° نهاراً. تم تصويره بالتفاصيل دي من مركبة MESSENGER سنة 2011.
+            </div>
+            <p class="source">المصدر: NASA/JPL-Caltech - MESSENGER Mission</p>
+        </div>
+
+        <div class="planet" id="venus">
+            <h2>الزهرة Venus</h2>
+            <img class="planet-img" src="https://photojournal.jpl.nasa.gov/jpeg/PIA00271.jpg" alt="كوكب الزهرة من Magellan">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>12,104 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>108.2 مليون كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>225 يوم أرضي</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>243 يوم أرضي</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>90% من الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>0</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> الزهرة أسخن كوكب بمتوسط 464°م بسبب غلافه الجوي السميك من ثاني أكسيد الكربون. بيلف بالعكس فالشمس بتشرق من الغرب. الضغط الجوي على سطحه 92 ضعف الأرض.
+            </div>
+            <p class="source">المصدر: NASA/JPL - Magellan Mission</p>
+        </div>
+
+        <div class="planet" id="earth">
+            <h2>الأرض Earth</h2>
+            <img class="planet-img" src="https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57723/globe_west_2048.jpg" alt="كوكب الأرض Blue Marble">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>12,742 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>149.6 مليون كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>365.25 يوم</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>23.9 ساعة</span></div>
+[30/05/2026 02:34 م] 𝕜𝕒𝕨𝕜𝕒𝕓🪐: <div class="info-box"><strong>الجاذبية</strong><span>9.8 م/ث²</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>1 - القمر</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> الكوكب الوحيد المعروف بالحياة. 71% من سطحه ماء سائل. غلافه الجوي 78% نيتروجين و21% أكسجين. الصورة دي اسمها "Blue Marble" اتصورت من Apollo 17 سنة 1972.
+            </div>
+            <p class="source">المصدر: NASA Earth Observatory - Apollo 17</p>
+        </div>
+
+        <div class="planet" id="mars">
+            <h2>المريخ Mars</h2>
+            <img class="planet-img" src="https://mars.nasa.gov/system/resources/detail_files/7808_mars-globe-valles-marineris-enhanced-full2.jpg" alt="كوكب المريخ من Viking">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>6,779 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>228 مليون كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>687 يوم أرضي</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>24.6 ساعة</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>38% من الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>2 - فوبوس وديموس</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> الكوكب الأحمر بسبب أكسيد الحديد في تربته. عليه أوليمبوس مونس أعلى جبل في المجموعة الشمسية 21 كم، ووادي فاليس مارينريس طوله 4000 كم. متوسط الحرارة -63°م.
+            </div>
+            <p class="source">المصدر: NASA Mars Exploration Program - Viking Orbiters</p>
+        </div>
+
+        <div class="planet" id="jupiter">
+            <h2>المشتري Jupiter</h2>
+            <img class="planet-img" src="https://science.nasa.gov/wp-content/uploads/2023/09/hubble-jupiter-jan2019.jpg" alt="كوكب المشتري من Hubble">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>139,820 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>778.5 مليون كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>11.86 سنة أرضية</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>9.93 ساعة</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>2.5 ضعف الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>95 قمر مؤكد</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> أكبر كوكب، كتلته ضعف كل الكواكب التانية مجتمعة. البقعة الحمراء العظيمة عاصفة أكبر من الأرض ومستمرة 350+ سنة. صورة Hubble دي بتوضح العاصفة والأحزمة السحابية بوضوح.
+            </div>
+            <p class="source">المصدر: NASA/ESA Hubble Space Telescope</p>
+        </div>
+
+        <div class="planet" id="saturn">
+            <h2>زحل Saturn</h2>
+            <img class="planet-img" src="https://photojournal.jpl.nasa.gov/jpeg/PIA17172.jpg" alt="كوكب زحل من Cassini">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>116,460 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>1.43 مليار كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>29.45 سنة أرضية</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>10.7 ساعة</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>1.07 ضعف الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>146 قمر مؤكد</span></div>
+            </div>
+[30/05/2026 02:34 م] 𝕜𝕒𝕨𝕜𝕒𝕓🪐: <div class="fact">
+                <strong>حقيقة من NASA:</strong> حلقاته مكونة من مليارات القطع من التلج والصخور من حجم حبة رمل لبيت. كثافته أقل من الماء 0.687 جم/سم³. الصورة دي من Cassini سنة 2016 وبتوضح الحلقات بتفاصيل مذهلة.
+            </div>
+            <p class="source">المصدر: NASA/JPL-Caltech - Cassini Mission</p>
+        </div>
+
+        <div class="planet" id="uranus">
+            <h2>أورانوس Uranus</h2>
+            <img class="planet-img" src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg" alt="كوكب أورانوس من Hubble">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>50,724 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>2.87 مليار كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>84 سنة أرضية</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>17.2 ساعة</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>86% من الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>27 قمر</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> بيدور على جنبه بميل 98° كأنه بيتدحرج. أبرد كوكب بمتوسط -224°م. لونه الأزرق المخضر من غاز الميثان اللي بيمتص الضوء الأحمر. أول كوكب اكتشف بالتليسكوب سنة 1781.
+            </div>
+            <p class="source">المصدر: NASA/ESA Hubble - Voyager 2</p>
+        </div>
+
+        <div class="planet" id="neptune">
+            <h2>نبتون Neptune</h2>
+            <img class="planet-img" src="https://photojournal.jpl.nasa.gov/jpeg/PIA01492.jpg" alt="كوكب نبتون من Voyager 2">
+            <div class="info-grid">
+                <div class="info-box"><strong>القطر</strong><span>49,244 كم</span></div>
+                <div class="info-box"><strong>البعد عن الشمس</strong><span>4.5 مليار كم</span></div>
+                <div class="info-box"><strong>مدة السنة</strong><span>165 سنة أرضية</span></div>
+                <div class="info-box"><strong>مدة اليوم</strong><span>16.1 ساعة</span></div>
+                <div class="info-box"><strong>الجاذبية</strong><span>1.14 ضعف الأرض</span></div>
+                <div class="info-box"><strong>الأقمار</strong><span>14 قمر</span></div>
+            </div>
+            <div class="fact">
+                <strong>حقيقة من NASA:</strong> أبعد كوكب وعنده أسرع رياح في المجموعة الشمسية 2,100 كم/ساعة. اكتشف بالحسابات الرياضية سنة 1846 قبل ما يتشاف. لونه الأزرق الغامق من الميثان. الصورة دي من Voyager 2 سنة 1989.
+            </div>
+            <p class="source">المصدر: NASA/JPL - Voyager 2 Mission</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>موقع 𝕜𝕒𝕨𝕜𝕒𝕓 © 2026</p>
+        <p>جميع الصور والمعلومات من NASA, JPL-Caltech, ESA, Hubble Space Telescope</p>
+        <p class="source">NASA Solar System Exploration | Photojournal | Mars Exploration Program</p>
+    </footer>
+
+</body>
+</html>
